@@ -11,6 +11,18 @@ public class Employee {
         this.experience = experience;
     }
 
+    public void work(){
+        System.out.println(" Is working now ");
+    }
+
+    public void atBreak(){
+        System.out.println(" Went to break ");
+    }
+
+    public void salary(int amount){
+        System.out.println(this.name + " received a salary " + amount + "AMD");
+    }
+
     public String getName() {
         return name;
     }
